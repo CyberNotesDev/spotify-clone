@@ -1,0 +1,42 @@
+.header {
+    background-color: #121212;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 15px;
+    top: 0;
+    z-index: 10;
+}
+
+.back-forward {
+    display: flex;
+    align-items: center;
+}
+
+.back-forward > h3:first-child {
+    margin-right: 10px;
+}
+
+.button-signin > button {
+    font-weight: bold;
+    border: 0;
+    background-color: none;
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.button-signin > .sign-up {
+    color: white;
+    margin-right: 10px;
+}
+
+.button-signin > .log-in {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+}
