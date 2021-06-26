@@ -1,0 +1,8 @@
+.sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
