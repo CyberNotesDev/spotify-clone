@@ -3,9 +3,9 @@
 }
 
 .app-left {
-    flex: 0.25;
+    flex: 0.2;
 }
 
 .app-right {
-    flex: 0.75;
+    flex: 0.8;
 }
