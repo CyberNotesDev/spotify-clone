@@ -1,0 +1,20 @@
+.browse-music-row-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.browse-music-title {
+    color: white;
+    font-size: 12px;
+}
+
+.browse-music-title > h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.browse-music-see-all {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: lightgray;
+}
