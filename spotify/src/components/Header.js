@@ -1,12 +1,18 @@
 import React from 'react'
 import "./../css/Header.css";
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 function Header() {
     return (
         <div className="header">
             <div className="back-forward">
-                <h3>back</h3>
-                <h3>forward</h3>
+                <div className="arrow-back-container"> 
+                    <ArrowBackIosIcon className="arrow-back" />
+                </div>
+                <div className="arrow-forward-container">
+                    <ArrowForwardIosIcon className="arrow-forward" />
+                </div>
             </div>
             <div className="button-signin">
                 <button className="sign-up">Sign Up</button>
