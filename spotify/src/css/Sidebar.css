@@ -1,8 +1,22 @@
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+
     position: sticky;
     top: 0;
     z-index: 10;
     height: 100vh;
     color: white;
     background-color: black;
+}
+
+.sidebar-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-logo {
+    height: 50px;
+    object-fit: contain;
 }
