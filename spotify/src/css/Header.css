@@ -20,12 +20,17 @@
 }
 
 .button-signin > button {
-    font-weight: bold;
+    /* font-weight: bold; */
     border: 0;
+    cursor: pointer;
     background-color: none;
     outline: none;
     background-color: transparent;
     text-transform: uppercase;
+}
+
+.button-signin > button:hover {
+    transform: scale(1.1);
 }
 
 .button-signin > .sign-up {
