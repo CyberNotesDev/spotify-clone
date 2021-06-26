@@ -1,0 +1,11 @@
+.app {
+    display: flex;
+}
+
+.app-left {
+    flex: 0.25;
+}
+
+.app-right {
+    flex: 0.75;
+}
