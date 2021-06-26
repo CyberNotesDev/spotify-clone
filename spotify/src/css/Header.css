@@ -13,10 +13,37 @@
 .back-forward {
     display: flex;
     align-items: center;
+
+    color: gray;
 }
 
-.back-forward > h3:first-child {
-    margin-right: 10px;
+.arrow-back-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.arrow-back, .arrow-forward {
+    font-size: 20px !important;
+    font-weight: 50 !important;
+}
+
+.arrow-forward-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 50%;
+
+    width: 30px;
+    height: 30px;
 }
 
 .button-signin > button {
