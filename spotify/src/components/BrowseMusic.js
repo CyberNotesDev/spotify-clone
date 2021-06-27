@@ -23,6 +23,15 @@ import Deepfocus from "./../images/deepfocus.jpg";
 import Brainfood from "./../images/brainfood.jpg";
 import Intensestudy from "./../images/intensestudy.jpg";
 
+import Goodvibes from "./../images/goodvibes.jpg";
+import Feelinmyself from "./../images/feelinmyself.jpg";
+import PartyCove from "./../images/partycove.jpg";
+import Bbe from "./../images/bbe.jpg";
+import Parkhangs from "./../images/parkhangs.jpg";
+import Moodbooster from "./../images/moodbooster.jpg";
+import Mylifeisamovie from "./../images/mylifeisamovie.jpg";
+import Haveagreatday from "./../images/haveagreatday.jpg";
+
 function BrowseMusic() {
     return (
         <div className="browse-music">
@@ -55,7 +64,14 @@ function BrowseMusic() {
             <div className="browse-music-row">
                 <BrowseMusicRow title="Mood" description="Playlists to match your mood." seeAll />
                 <div className="browse-music-row-bottom">
-                    <BrowseMusicPlaylist image={Woman} title="Summer Breakouts" description="Introducing Summer Breakouts, featuring exciting artists and songs to soundtrack your summer '21. Cover: BIA" likes="4,998 likes" songs="70 songs" playTime="3 hr 37 min" />
+                    <BrowseMusicPlaylist image={Moodbooster} title="Mood Booster" description="Get happy with today's dose of feel-good songs!" likes="6,741,803 likes" songs="78 songs" playTime="4 hr 7 min" />
+                    <BrowseMusicPlaylist image={Feelinmyself} title="Feelin' Myself" description="The hip-hop playlist that's a whole mood. Cover: Doja Cat; Art by Laci Jordan" likes="1,791,272 likes" songs="50 songs" playTime="2 hr 21 min" />
+                    <BrowseMusicPlaylist image={Parkhangs} title="park hangs" description="grab a blanket and get the good vibes going" likes="293,647 likes" songs="50 songs" playTime="2 hr 41 min" />
+                    <BrowseMusicPlaylist image={Haveagreatday} title="Have a Great Day!" description="Feel great with these timelessly fun songs!" likes="5,029,035 likes" songs="102 songs" playTime="6 hr" />
+                    <BrowseMusicPlaylist image={PartyCove} title="Party Cove" description="The perfect soundtrack for a day on the water." likes="172,152 likes" songs="117 songs" playTime="6 hr 30 min" />
+                    <BrowseMusicPlaylist image={Bbe} title="BBE" description="Bad b**** energy. Be blessed, be spicy. Cover: Megan Thee Stallion" likes="167,044 likes" songs="80 songs" playTime="3 hr 50 min" />
+                    <BrowseMusicPlaylist image={Goodvibes} title="Good Vibes" description="Set it off with these epic anthems. Only good vibes here!" likes="2,705,191 likes" songs="138 songs" playTime="7 hr 30 min" />
+                    <BrowseMusicPlaylist image={Mylifeisamovie} title="my life is a movie" description="every main character needs their soundtrack" likes="623,194 likes" songs="75 songs" playTime="4 hr 32 min" />
                 </div>
             </div>
             <div className="browse-music-row">
