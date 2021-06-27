@@ -8,7 +8,7 @@
     font-size: 12px;
 }
 
-.browse-music-title > h1:hover {
+.browse-music-title > h1:hover, .browse-music-see-all > h3:hover  {
     text-decoration: underline;
     cursor: pointer;
 }
