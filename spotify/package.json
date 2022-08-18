@@ -2,7 +2,7 @@
   "name": "spotify",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cybernotesdev.github.io/spotify-clone",
+  "homepage": "http://CyberNotesDev.github.io/spotify-clone",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
