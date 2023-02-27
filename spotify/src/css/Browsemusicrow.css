@@ -1,20 +1,4 @@
-.browse-music-row-top {
+.playlist-row {
     display: flex;
-    justify-content: space-between;
-}
-
-.browse-music-title {
-    color: white;
-    font-size: 12px;
-}
-
-.browse-music-title > h1:hover, .browse-music-see-all > h3:hover  {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.browse-music-see-all {
-    font-size: 11px;
-    text-transform: uppercase;
-    color: lightgray;
+    flex-direction: row;
 }

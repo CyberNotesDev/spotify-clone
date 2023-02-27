@@ -5,7 +5,7 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 function Header() {
     return (
-        <div className="header">
+        <header className="header">
             <div className="back-forward">
                 <div className="arrow-back-container"> 
                     <ArrowBackIosIcon className="arrow-back" />
@@ -14,11 +14,12 @@ function Header() {
                     <ArrowForwardIosIcon className="arrow-forward" />
                 </div>
             </div>
+            
             <div className="button-signin">
                 <button className="sign-up">Sign Up</button>
                 <button className="log-in">Log In</button>
             </div>
-        </div>
+        </header>
     )
 }
 

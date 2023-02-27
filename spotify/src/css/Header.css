@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
 
+    height: 75px;
     padding: 10px 15px;
     top: 0;
     z-index: 10;
@@ -53,7 +54,6 @@
     background-color: none;
     outline: none;
     background-color: transparent;
-    text-transform: uppercase;
 }
 
 .button-signin > button:hover {
@@ -71,4 +71,5 @@
     padding: 10px;
     width: 100px;
     border-radius: 25px;
+    font-weight: 600;
 }

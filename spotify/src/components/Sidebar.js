@@ -1,6 +1,5 @@
 import React from 'react'
 import "./../css/Sidebar.css";
-import SpotifyLogo from "./../images/spotify-logo.jpg";
 import SidebarRow from './SidebarRow';
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
@@ -12,7 +11,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar-logo-container">
-                <img className="sidebar-logo" src={SpotifyLogo} alt="Spotify" />
+                {/* <img className="sidebar-logo" src={SpotifyLogo} alt="Spotify" /> */}
             </div>
             <div className="sidebar-links">
                 <div className="side-bar-links-important">
